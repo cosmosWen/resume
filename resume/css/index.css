@@ -1,0 +1,142 @@
+html{
+	background-color: #f4f4f4;
+}
+.container{
+	zoom:1;
+	width: 1000px;
+	/*height:1100px;*/
+	padding: 20px 30px;
+	margin: 50px auto;
+	background: #fff;
+	border:1px solid #a5d4fc;
+}
+
+.header{
+
+}
+.header .photo{
+	zoom:1;
+	width: 16.7%;
+	float: left;
+
+}
+.header .photo img{
+	float: left;
+	width: 140px;/*长宽*/
+	height: 160px;/*高*/
+	border-radius: 10px;
+}
+.header .Introduction{
+	width: 83.3%;
+	float: right;
+
+}
+.header .Introduction .row1{
+	font-size: 30px;
+	font-family: cursive;
+	float: left;
+}
+.header .Introduction .row2{
+	display: inline-block;
+	font-size: 14px;
+	height: 30px;
+	width: 90%;
+	padding-top: 10px;
+	padding-left: 10px;
+	margin-top: 5px;
+    background: #f4f4f4;
+}
+@font-face{
+	font-family: "icon";
+	src:url("../fonts/icomoon.eot")format("Embedded Open Type")
+	,url("../fonts/icomoon.woff")format("woff")
+	,url("../fonts/icomoon.ttf")format("trutype")
+	,url("../fonts/icomoon.svg")format("svg")
+	,url("../fonts/github.svg")format("svg");
+	font-style: normal;
+	font-weight: normal;
+}
+.col1{
+	display: inline-block;
+	margin-top: 10px;
+	float: left;
+}
+.icon{
+	display: inline-block;
+	font-family: "icon";
+	font-style: normal;
+	font-weight: normal;
+	color: #16b8d4;
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+.icon p{
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 10px;
+	color: #000;
+}
+.icon a{
+	display: inline-block;
+	font-size: 16px;
+	margin-left: 10px;
+	color: #000;
+}
+.col2{
+	float: right;
+	display: inline-block;
+	margin-top: 10px;
+	margin-right: 130px;
+}
+.container .line{
+	display: inline-block;
+	border:1px solid #f4f4f4;
+	margin:30px 50px 10px 50px;
+	width: 80%;
+}
+.icon.icon1{
+	display: inline-block;
+/*	width: 50px;*/
+	float: left;
+	margin-right: 10px; 
+	font-size: 36px;
+}
+.title{
+	display: inline-block;
+	font-weight: normal;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.text{
+	display: inline-block;
+	zoom:1;
+/*	height: 100px;*/
+	width: 1000px;
+}
+.text h3,h4{
+	display: inline-block;
+}
+.col3-l{
+	display: inline-block;
+	/*height: 90px;*/
+	padding-top: 10px;
+	margin-left: 30px;
+	width: 800px;
+	line-height: 30px;
+	color: #757575;
+}
+.col3-r{
+	display: inline-block;
+	/*height: 90px;*/
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-left: 10px;
+	width: 160px;
+	float: left;
+	color: #757575;
+}
+.col4 .active{
+	margin-top: 4px;
+	margin-left: 30px;
+	line-height: 22px;
+}
